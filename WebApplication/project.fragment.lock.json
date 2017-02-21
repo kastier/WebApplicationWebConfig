@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "exports": {
+    "ClassLibraryV2/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/ClassLibraryV2.dll": {}
+      },
+      "runtime": {
+        "../packages/Microsoft.Extensions.Configuration.Abstractions.1.0.0/lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {},
+        "../packages/Microsoft.Extensions.FileProviders.Abstractions.1.0.0/lib/netstandard1.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {},
+        "../packages/Microsoft.Extensions.FileProviders.Physical.1.0.0/lib/net451/Microsoft.Extensions.FileProviders.Physical.dll": {},
+        "../packages/Microsoft.Extensions.FileSystemGlobbing.1.0.0/lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {},
+        "../packages/Microsoft.Extensions.Primitives.1.0.0/lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {},
+        "../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
+        "bin/Debug/ClassLibraryV2.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/ClassLibraryV2.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
